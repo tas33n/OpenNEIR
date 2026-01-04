@@ -6,13 +6,26 @@
 
 <div align="center">
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Flutter](https://img.shields.io/badge/Built%20with-Flutter-02569B.svg)](https://flutter.dev)
-[![Status](https://img.shields.io/badge/Status-Beta-orange.svg)]()
+[![GitHub Release](https://img.shields.io/github/v/release/tas33n/openneir?style=flat-square)](https://github.com/tas33n/openneir/releases/latest)
+[![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/tas33n/openneir/total?style=flat-square&color=blue)](https://github.com/tas33n/openneir/releases)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
+[![Flutter](https://img.shields.io/badge/Built%20with-Flutter-02569B.svg?style=flat-square)](https://flutter.dev)
+[![Platform](https://img.shields.io/badge/Platform-Android-green.svg?style=flat-square)](https://www.android.com/)
 
 **A Free and Open Source IMEI Verification Tool for Bangladesh NEIR**
 
 </div>
+
+---
+
+## 📥 Download
+
+Get the latest version of OpenNEIR from the **Releases** page.
+
+| Channel | Version | Description | Link |
+| :--- | :--- | :--- | :--- |
+| **Stable** | v1.0.0 | Recommended for most users. Tested and reliable. | [**Download Latest Stable**](https://github.com/tas33n/openneir/releases/latest) |
+| **Beta** | v1.0.0-beta | For early adopters. Contains new features but may have bugs. | [**View Beta Releases**](https://github.com/tas33n/openneir/releases) |
 
 ---
 
@@ -26,6 +39,10 @@ Built with Flutter and powered by a secure Cloudflare Worker backend, OpenNEIR e
 
 - **Instant IMEI Verification**: Check if your device is registered with BTRC's NEIR database.
 - **Detailed Device Info**: Fetches Brand and Model information automatically (even for unregistered devices).
+- **In-App Updater**:
+    - Automatically checks for updates.
+    - Supports both **Stable** and **Beta** release channels.
+    - Android 14+ style update interface.
 - **Secure Architecture**:
     - **End-to-End Encryption**: IMEI data is encrypted using AES-256-CBC before leaving your device.
     - **API Key Authentication**: Unauthorized access to the API is blocked.
